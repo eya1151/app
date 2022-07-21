@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
  import Signup from './Signup'
-
+ //import Connect from './Connect';
 const Profile = () => {
  const params= useParams()
  console.log(params);
@@ -14,6 +14,7 @@ const Profile = () => {
      <div className='row'>
      
       <Signup/>
+     
      </div>
      <div className='col-md-7'>
       

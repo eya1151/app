@@ -9,6 +9,7 @@ import Developpement from './componet/Services/Developpement';
 import Connect from './componet/Profile/Connect';
 import Posts from './componet/Register/Posts';
 import Update from './componet/Profile/Update';
+import UesrPage from './componet/Profile/UesrPage';
 
 
 
@@ -26,6 +27,7 @@ function App() {
   <Route path ="/connect" element={<Connect/>}/>
   <Route path ="/register/post" element={<Posts/>}/>
   <Route path ="/edit/user/:id" element={<Update/>}/>
+  <Route path ="/userPage" element={<UesrPage/>}/>
   {/*<Route path ="/profil/*" element={<Profile/>}/>*/}
   
 </Routes>

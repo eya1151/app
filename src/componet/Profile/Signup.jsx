@@ -29,7 +29,7 @@ const Signup = () => {
       onSubmit={values => {
         console.log(values);
         try {
-          axios.post('http://localhost:5000/posts', values).then(r => console.log(r)).catch(e => console.log(e))
+          axios.post('http://localhost:5000/posts/signup', values).then(r => console.log(r)).catch(e => console.log(e))
         } catch (error) {
           console.log(error);
         }
