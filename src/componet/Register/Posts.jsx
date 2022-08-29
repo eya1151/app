@@ -1,8 +1,8 @@
 import React from 'react';
 import{useEffect , useState} from 'react';
-import { Link } from 'react-router-dom'
-import axios from "axios";
 
+import axios from "axios";
+import { Link } from 'react-router-dom'
 
 function Delete(id){
 axios.delete(`http://localhost:5000/posts/${id}`)
